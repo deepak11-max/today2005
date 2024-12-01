@@ -21,9 +21,13 @@
     </div>
 <button id="btn" onclick="toggleHide()">Show/Hide</button>
 <script>
+    let para=document.getElementById('para');
+    para.addEventlistener('mouseover',function run() {
+    alert('welcome deepak')
+    });
     function toggleHide() {
-        let btn= document.getElememtById('btn');
-        let para=document.getElementById('para');
+        //let btn= document.getElememtById('btn');
+        //let para=document.getElementById('para');
         if(para.style.display!='none') {
         para.style.display='none';
         }
