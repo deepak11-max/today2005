@@ -12,20 +12,23 @@
 </head>
 </styl>
 <body>
-<p4 id="deep">hello mrs deepak ,your arehggvvvvbbbv
+    <div class="container">
+        <h2>hello miss</h2>
+<p4 id="para">hello mrs deepak ,your arehggvvvvbbbv
     fgghbbb
     ghjhhh
 </p4>
-<button id="btn" onclick="togglehide()">show/hide</button>
+    </div>
+<button id="btn" onclick="toggleHide()">Show/Hide</button>
 <script>
-    function togglehide() {
+    function toggleHide() {
         let btn= document.getElememtById('btn');
-        let deep=document.getElementById('deep');
-        if(deep.style.display!='none') {
-        deep.style.display='none';
+        let para=document.getElementById('para');
+        if(para.style.display!='none') {
+        para.style.display='none';
         }
             else {
-                deep.style.display='block';
+                para.style.display='block';
             }
     }
 </script>
